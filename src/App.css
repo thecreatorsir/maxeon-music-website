@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: url("./assets/Banner.png") no-repeat center center;
+  background-size: cover;
+}
+
+.brand {
+  font-weight: 900;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.login {
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+.tag-line-container {
+  text-align: center;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+@media (max-width: 600px) {
+  .tag-line-container {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .header {
+    background: url("./assets/Banner.png") no-repeat center center;
+    background-size: cover;
+  }
+}
